@@ -1,0 +1,43 @@
+.contact-container {
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #000;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form .form-control {
+  width: 100%; /* Ensure inputs span the container */
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea.form-control {
+  min-height: 300px;
+  resize: vertical;
+}
+
+.contact-form .btn-primary {
+  background-color: #008000;
+  border-color: #008000;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  cursor: pointer;
+}

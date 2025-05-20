@@ -1,0 +1,52 @@
+.aboutme-container{
+    width: 100%;
+    min-height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/hacker-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+}
+
+.home-page{
+    background-color: black;
+    width: 100%;
+    color: #fff;
+}
+
+.button-container{
+    margin-top: 20px;
+}
+
+.projects-container{
+    padding: 50px 50px;
+}
+
+.projects-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-container{
+    padding: 50px 20px;
+    background-color: green;
+}
+
+.contact-container .btn {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.resume-button {
+    background-color: green !important;
+    color: white !important;
+}
+
+.skills-container{
+    padding: 50px 50px;
+}
+
+.skills-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
