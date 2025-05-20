@@ -1,0 +1,25 @@
+.skill-card {
+    background-color: #1e1e1e;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px #008000; /* Underglow effect */
+}
+
+.category-title {
+  border-bottom: 2px solid #008000;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.skills-category {
+  text-align: center; /* This centers inline and inline-block children */
+}
