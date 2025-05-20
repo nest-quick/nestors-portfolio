@@ -26,6 +26,10 @@ const Contact = () => {
         setSent(true);
         setEmail("");
         setMessage("");
+      },
+      (err) => {
+        console.error(err);
+        setError("Failed to send message. Please try again later.");
       }
     );
   };
@@ -58,6 +62,8 @@ const Contact = () => {
         <button type="submit" className="btn btn-primary">
           Send Message
         </button>
+        {sent && <p className="text-success mt-2">Message sent successfully!</p>}
+        {error && <p className="text-danger mt-2">{error}</p>}
       </form>
     </div>
   );

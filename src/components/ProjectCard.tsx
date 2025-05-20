@@ -7,7 +7,7 @@ interface ProjectCardProps{
     link: string;
 }
 
-const ProjectCard = ({title, description, image, link}: ProjectCardProps) => {
+const ProjectCard = ({title, description, link}: ProjectCardProps) => {
     return(
         <div className="project-card">
             <div className="project-content">
