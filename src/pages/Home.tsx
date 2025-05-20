@@ -84,8 +84,8 @@ const skillsData = {
               that improve system performance, user experience, and developer efficiency—bringing impactful features from concept to deployment.
             </p>
             <div className="button-group">
-              <button className="btn me-2 resume-button">Resume</button>
-              <button className="btn btn-outline-light">LinkedIn</button>
+              <a href="/public/Nestor Jacinto Resume 05_2025.pdf"  className="btn me-2 resume-button">Resume</a>
+              <a href="https://www.linkedin.com/in/nestor-jacinto-17763a22a/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light"> LinkedIn</a>
             </div>
           </div>
           <div className="projects-container" id="projects">
