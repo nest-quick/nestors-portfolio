@@ -7,12 +7,12 @@ Welcome to my personal portfolio website built with **React**, **TypeScript**, a
 
 ## Features
 
-- 🧠 About Me section with background and expertise
-- 💼 Dynamic Projects section with GitHub links
-- 💡 Categorized Skills section (Frontend, Backend, Cloud, etc.)
-- 📬 Contact form with email input
-- 📄 Resume download & LinkedIn profile link
-- 🌐 Responsive design using Bootstrap 5
+- About Me section with background and expertise
+- Dynamic Projects section with GitHub links
+- Categorized Skills section (Frontend, Backend, Cloud, etc.)
+- Contact form with email input
+- Resume download & LinkedIn profile link
+- Responsive design using Bootstrap 5
 
 ---
 
